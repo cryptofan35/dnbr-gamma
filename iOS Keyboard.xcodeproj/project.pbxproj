@@ -1,0 +1,1354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0553D9A7334F57E22A9C26E4 /* Pods_iOS_KeyboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3C9A5C611140DA42B16396 /* Pods_iOS_KeyboardTests.framework */; };
+		110EB209CBA0E4C05A351DB0 /* Pods_Dunbar_Keyboard_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D0E40B86AD84FB10DC9614 /* Pods_Dunbar_Keyboard_Extension.framework */; };
+		1207DC3A2A85A0E20064FAC9 /* GoogleSignInProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1207DC392A85A0E20064FAC9 /* GoogleSignInProvider.swift */; };
+		1207DC3C2A85A31A0064FAC9 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1207DC3B2A85A31A0064FAC9 /* credentials.plist */; };
+		121EB0CC2AAF67D4002E031F /* EventListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CFBE112AAA1AAD006E1726 /* EventListCell.swift */; };
+		121EB0D92AC517AA002E031F /* Dunbar_Common.docc in Sources */ = {isa = PBXBuildFile; fileRef = 121EB0D82AC517AA002E031F /* Dunbar_Common.docc */; };
+		121EB0DF2AC517AB002E031F /* Dunbar_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121EB0D52AC517AA002E031F /* Dunbar_Common.framework */; };
+		121EB0E62AC517AB002E031F /* Dunbar_CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EB0E52AC517AB002E031F /* Dunbar_CommonTests.swift */; };
+		121EB0E72AC517AB002E031F /* Dunbar_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 121EB0D72AC517AA002E031F /* Dunbar_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		121EB0EA2AC517AB002E031F /* Dunbar_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121EB0D52AC517AA002E031F /* Dunbar_Common.framework */; };
+		121EB0EB2AC517AB002E031F /* Dunbar_Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 121EB0D52AC517AA002E031F /* Dunbar_Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		121EB0F32AC51803002E031F /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BAD9312AA7D55D0042AF3B /* KeychainWrapper.swift */; };
+		121EB0F42AC5190E002E031F /* Dunbar_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121EB0D52AC517AA002E031F /* Dunbar_Common.framework */; };
+		121EB0F92AC51FDF002E031F /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EB0CD2AB004E4002E031F /* UserDefaultsWrapper.swift */; };
+		121EB0FA2AC51FE2002E031F /* DunbarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1207DC3D2A8808E90064FAC9 /* DunbarAPI.swift */; };
+		121EB0FC2AC521DF002E031F /* CommonAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121EB0FB2AC521DF002E031F /* CommonAssets.xcassets */; };
+		121EB1002AC65CE5002E031F /* RobotoFlex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121EB0FD2AC52584002E031F /* RobotoFlex.ttf */; };
+		121EB1022AC65CE8002E031F /* RobotoFlex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 121EB0FD2AC52584002E031F /* RobotoFlex.ttf */; };
+		124BC4BA2A82EFC700304CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4B92A82EFC700304CF8 /* AppDelegate.swift */; };
+		124BC4BC2A82EFC700304CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4BB2A82EFC700304CF8 /* SceneDelegate.swift */; };
+		124BC4BE2A82EFC700304CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4BD2A82EFC700304CF8 /* ViewController.swift */; };
+		124BC4C32A82EFC800304CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124BC4C22A82EFC800304CF8 /* Assets.xcassets */; };
+		124BC4C62A82EFC800304CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124BC4C42A82EFC800304CF8 /* LaunchScreen.storyboard */; };
+		124BC4D12A82EFC900304CF8 /* iOS_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4D02A82EFC900304CF8 /* iOS_KeyboardTests.swift */; };
+		124BC4DB2A82EFC900304CF8 /* iOS_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4DA2A82EFC900304CF8 /* iOS_KeyboardUITests.swift */; };
+		124BC4DD2A82EFC900304CF8 /* iOS_KeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4DC2A82EFC900304CF8 /* iOS_KeyboardUITestsLaunchTests.swift */; };
+		124BC4F02A82EFEB00304CF8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124BC4EF2A82EFEB00304CF8 /* KeyboardViewController.swift */; };
+		124BC4F42A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 124BC4ED2A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		125C1ECB2AC65FE200D3A5AE /* AssetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125C1ECA2AC65FE200D3A5AE /* AssetProvider.swift */; };
+		12CFBE142AAA3ED2006E1726 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CFBE132AAA3ED2006E1726 /* Event.swift */; };
+		12FB133F2A82F87D00E90497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FB133D2A82F87D00E90497 /* Main.storyboard */; };
+		343AD2FBEF6B4E308AFA20BF /* Pods_iOS_Keyboard_iOS_KeyboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D8EF444E28957C0366F5C /* Pods_iOS_Keyboard_iOS_KeyboardUITests.framework */; };
+		D421F07593D89ACED54C7F6C /* Pods_Dunbar_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7BDE58038AF323205E5D11 /* Pods_Dunbar_Common.framework */; };
+		E5D100A040536052E61A3C3D /* Pods_iOS_Keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6F866CE8955306851844ED /* Pods_iOS_Keyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		121EB0E02AC517AB002E031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121EB0D42AC517AA002E031F;
+			remoteInfo = "Dunbar Common";
+		};
+		121EB0E22AC517AB002E031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124BC4B52A82EFC700304CF8;
+			remoteInfo = "iOS Keyboard";
+		};
+		121EB0E82AC517AB002E031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121EB0D42AC517AA002E031F;
+			remoteInfo = "Dunbar Common";
+		};
+		121EB0F62AC5190E002E031F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 121EB0D42AC517AA002E031F;
+			remoteInfo = "Dunbar Common";
+		};
+		124BC4CD2A82EFC900304CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124BC4B52A82EFC700304CF8;
+			remoteInfo = "iOS Keyboard";
+		};
+		124BC4D72A82EFC900304CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124BC4B52A82EFC700304CF8;
+			remoteInfo = "iOS Keyboard";
+		};
+		124BC4F22A82EFEB00304CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124BC4AE2A82EFC700304CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124BC4EC2A82EFEB00304CF8;
+			remoteInfo = "Dunbar Keyboard Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		121EB0EF2AC517AB002E031F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				121EB0EB2AC517AB002E031F /* Dunbar_Common.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4F82A82EFEB00304CF8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				124BC4F42A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B7BDE58038AF323205E5D11 /* Pods_Dunbar_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dunbar_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1207DC392A85A0E20064FAC9 /* GoogleSignInProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInProvider.swift; sourceTree = "<group>"; };
+		1207DC3B2A85A31A0064FAC9 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		1207DC3D2A8808E90064FAC9 /* DunbarAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunbarAPI.swift; sourceTree = "<group>"; };
+		1207DC3F2A89B41B0064FAC9 /* iOS Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS Keyboard.entitlements"; sourceTree = "<group>"; };
+		1207DC402A89B4280064FAC9 /* Dunbar Keyboard Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dunbar Keyboard Extension.entitlements"; sourceTree = "<group>"; };
+		121EB0CD2AB004E4002E031F /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
+		121EB0D52AC517AA002E031F /* Dunbar_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dunbar_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		121EB0D72AC517AA002E031F /* Dunbar_Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dunbar_Common.h; sourceTree = "<group>"; };
+		121EB0D82AC517AA002E031F /* Dunbar_Common.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Dunbar_Common.docc; sourceTree = "<group>"; };
+		121EB0DE2AC517AB002E031F /* Dunbar CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dunbar CommonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121EB0E52AC517AB002E031F /* Dunbar_CommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dunbar_CommonTests.swift; sourceTree = "<group>"; };
+		121EB0FB2AC521DF002E031F /* CommonAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonAssets.xcassets; sourceTree = "<group>"; };
+		121EB0FD2AC52584002E031F /* RobotoFlex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RobotoFlex.ttf; sourceTree = "<group>"; };
+		124BC4B62A82EFC700304CF8 /* iOS Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BC4B92A82EFC700304CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		124BC4BB2A82EFC700304CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		124BC4BD2A82EFC700304CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124BC4C22A82EFC800304CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124BC4C52A82EFC800304CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		124BC4C72A82EFC800304CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124BC4CC2A82EFC900304CF8 /* iOS KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BC4D02A82EFC900304CF8 /* iOS_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_KeyboardTests.swift; sourceTree = "<group>"; };
+		124BC4D62A82EFC900304CF8 /* iOS KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BC4DA2A82EFC900304CF8 /* iOS_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_KeyboardUITests.swift; sourceTree = "<group>"; };
+		124BC4DC2A82EFC900304CF8 /* iOS_KeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_KeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		124BC4ED2A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Dunbar Keyboard Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BC4EF2A82EFEB00304CF8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		124BC4F12A82EFEB00304CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125C1ECA2AC65FE200D3A5AE /* AssetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetProvider.swift; sourceTree = "<group>"; };
+		12BAD9312AA7D55D0042AF3B /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		12CFBE112AAA1AAD006E1726 /* EventListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCell.swift; sourceTree = "<group>"; };
+		12CFBE132AAA3ED2006E1726 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		12FB133E2A82F87D00E90497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A3C9A5C611140DA42B16396 /* Pods_iOS_KeyboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_KeyboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D133146AF48B069ACE8164 /* Pods-iOS KeyboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS KeyboardTests.release.xcconfig"; path = "Target Support Files/Pods-iOS KeyboardTests/Pods-iOS KeyboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		26466EB2C4E9440AB2E1702B /* Pods-iOS Keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Keyboard.debug.xcconfig"; path = "Target Support Files/Pods-iOS Keyboard/Pods-iOS Keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		39D0E40B86AD84FB10DC9614 /* Pods_Dunbar_Keyboard_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dunbar_Keyboard_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBEAC3434B456DAECF364EE /* Pods-iOS Keyboard-iOS KeyboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Keyboard-iOS KeyboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS Keyboard-iOS KeyboardUITests/Pods-iOS Keyboard-iOS KeyboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD4DF285FF23C019ECA3084 /* Pods-Dunbar Keyboard Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dunbar Keyboard Extension.release.xcconfig"; path = "Target Support Files/Pods-Dunbar Keyboard Extension/Pods-Dunbar Keyboard Extension.release.xcconfig"; sourceTree = "<group>"; };
+		588F97A9C8F3D9A7CF096241 /* Pods-Dunbar Keyboard Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dunbar Keyboard Extension.debug.xcconfig"; path = "Target Support Files/Pods-Dunbar Keyboard Extension/Pods-Dunbar Keyboard Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		5A512F7572BCCB8D7B074D0B /* Pods-Dunbar Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dunbar Common.debug.xcconfig"; path = "Target Support Files/Pods-Dunbar Common/Pods-Dunbar Common.debug.xcconfig"; sourceTree = "<group>"; };
+		797D8EF444E28957C0366F5C /* Pods_iOS_Keyboard_iOS_KeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Keyboard_iOS_KeyboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CFA5D93AE2700CDCBEAA31 /* Pods-Dunbar Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dunbar Common.release.xcconfig"; path = "Target Support Files/Pods-Dunbar Common/Pods-Dunbar Common.release.xcconfig"; sourceTree = "<group>"; };
+		9B6F866CE8955306851844ED /* Pods_iOS_Keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0481D28533C7687E64C0368 /* Pods-iOS Keyboard-iOS KeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Keyboard-iOS KeyboardUITests.release.xcconfig"; path = "Target Support Files/Pods-iOS Keyboard-iOS KeyboardUITests/Pods-iOS Keyboard-iOS KeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4E540523A974F3D72542935 /* Pods-iOS KeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS KeyboardTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS KeyboardTests/Pods-iOS KeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF9094F8AEE9640E86D6B0D /* Pods-iOS Keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Keyboard.release.xcconfig"; path = "Target Support Files/Pods-iOS Keyboard/Pods-iOS Keyboard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121EB0D22AC517AA002E031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D421F07593D89ACED54C7F6C /* Pods_Dunbar_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121EB0DB2AC517AB002E031F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0DF2AC517AB002E031F /* Dunbar_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4B32A82EFC700304CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D100A040536052E61A3C3D /* Pods_iOS_Keyboard.framework in Frameworks */,
+				121EB0EA2AC517AB002E031F /* Dunbar_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4C92A82EFC900304CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0553D9A7334F57E22A9C26E4 /* Pods_iOS_KeyboardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4D32A82EFC900304CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343AD2FBEF6B4E308AFA20BF /* Pods_iOS_Keyboard_iOS_KeyboardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4EA2A82EFEB00304CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110EB209CBA0E4C05A351DB0 /* Pods_Dunbar_Keyboard_Extension.framework in Frameworks */,
+				121EB0F42AC5190E002E031F /* Dunbar_Common.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121EB0D62AC517AA002E031F /* Dunbar Common */ = {
+			isa = PBXGroup;
+			children = (
+				121EB0FD2AC52584002E031F /* RobotoFlex.ttf */,
+				1207DC3D2A8808E90064FAC9 /* DunbarAPI.swift */,
+				121EB0CD2AB004E4002E031F /* UserDefaultsWrapper.swift */,
+				12BAD9312AA7D55D0042AF3B /* KeychainWrapper.swift */,
+				121EB0D72AC517AA002E031F /* Dunbar_Common.h */,
+				121EB0D82AC517AA002E031F /* Dunbar_Common.docc */,
+				121EB0FB2AC521DF002E031F /* CommonAssets.xcassets */,
+				125C1ECA2AC65FE200D3A5AE /* AssetProvider.swift */,
+			);
+			path = "Dunbar Common";
+			sourceTree = "<group>";
+		};
+		121EB0E42AC517AB002E031F /* Dunbar CommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				121EB0E52AC517AB002E031F /* Dunbar_CommonTests.swift */,
+			);
+			path = "Dunbar CommonTests";
+			sourceTree = "<group>";
+		};
+		124BC4AD2A82EFC700304CF8 = {
+			isa = PBXGroup;
+			children = (
+				124BC4B82A82EFC700304CF8 /* iOS Keyboard */,
+				124BC4CF2A82EFC900304CF8 /* iOS KeyboardTests */,
+				124BC4D92A82EFC900304CF8 /* iOS KeyboardUITests */,
+				124BC4EE2A82EFEB00304CF8 /* Dunbar Keyboard Extension */,
+				121EB0D62AC517AA002E031F /* Dunbar Common */,
+				121EB0E42AC517AB002E031F /* Dunbar CommonTests */,
+				124BC4B72A82EFC700304CF8 /* Products */,
+				F924B074C21F0003CADF0F59 /* Pods */,
+				CE57869D79FEDE3F27EA1AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		124BC4B72A82EFC700304CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				124BC4B62A82EFC700304CF8 /* iOS Keyboard.app */,
+				124BC4CC2A82EFC900304CF8 /* iOS KeyboardTests.xctest */,
+				124BC4D62A82EFC900304CF8 /* iOS KeyboardUITests.xctest */,
+				124BC4ED2A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex */,
+				121EB0D52AC517AA002E031F /* Dunbar_Common.framework */,
+				121EB0DE2AC517AB002E031F /* Dunbar CommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124BC4B82A82EFC700304CF8 /* iOS Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				12CFBE132AAA3ED2006E1726 /* Event.swift */,
+				1207DC3F2A89B41B0064FAC9 /* iOS Keyboard.entitlements */,
+				1207DC3B2A85A31A0064FAC9 /* credentials.plist */,
+				124BC4B92A82EFC700304CF8 /* AppDelegate.swift */,
+				124BC4BB2A82EFC700304CF8 /* SceneDelegate.swift */,
+				124BC4BD2A82EFC700304CF8 /* ViewController.swift */,
+				12FB133D2A82F87D00E90497 /* Main.storyboard */,
+				124BC4C22A82EFC800304CF8 /* Assets.xcassets */,
+				124BC4C42A82EFC800304CF8 /* LaunchScreen.storyboard */,
+				124BC4C72A82EFC800304CF8 /* Info.plist */,
+				1207DC392A85A0E20064FAC9 /* GoogleSignInProvider.swift */,
+			);
+			path = "iOS Keyboard";
+			sourceTree = "<group>";
+		};
+		124BC4CF2A82EFC900304CF8 /* iOS KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				124BC4D02A82EFC900304CF8 /* iOS_KeyboardTests.swift */,
+			);
+			path = "iOS KeyboardTests";
+			sourceTree = "<group>";
+		};
+		124BC4D92A82EFC900304CF8 /* iOS KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				124BC4DA2A82EFC900304CF8 /* iOS_KeyboardUITests.swift */,
+				124BC4DC2A82EFC900304CF8 /* iOS_KeyboardUITestsLaunchTests.swift */,
+			);
+			path = "iOS KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		124BC4EE2A82EFEB00304CF8 /* Dunbar Keyboard Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1207DC402A89B4280064FAC9 /* Dunbar Keyboard Extension.entitlements */,
+				124BC4EF2A82EFEB00304CF8 /* KeyboardViewController.swift */,
+				12CFBE112AAA1AAD006E1726 /* EventListCell.swift */,
+				124BC4F12A82EFEB00304CF8 /* Info.plist */,
+			);
+			path = "Dunbar Keyboard Extension";
+			sourceTree = "<group>";
+		};
+		CE57869D79FEDE3F27EA1AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D0E40B86AD84FB10DC9614 /* Pods_Dunbar_Keyboard_Extension.framework */,
+				9B6F866CE8955306851844ED /* Pods_iOS_Keyboard.framework */,
+				797D8EF444E28957C0366F5C /* Pods_iOS_Keyboard_iOS_KeyboardUITests.framework */,
+				1A3C9A5C611140DA42B16396 /* Pods_iOS_KeyboardTests.framework */,
+				0B7BDE58038AF323205E5D11 /* Pods_Dunbar_Common.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F924B074C21F0003CADF0F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				588F97A9C8F3D9A7CF096241 /* Pods-Dunbar Keyboard Extension.debug.xcconfig */,
+				4FD4DF285FF23C019ECA3084 /* Pods-Dunbar Keyboard Extension.release.xcconfig */,
+				26466EB2C4E9440AB2E1702B /* Pods-iOS Keyboard.debug.xcconfig */,
+				FCF9094F8AEE9640E86D6B0D /* Pods-iOS Keyboard.release.xcconfig */,
+				3FBEAC3434B456DAECF364EE /* Pods-iOS Keyboard-iOS KeyboardUITests.debug.xcconfig */,
+				D0481D28533C7687E64C0368 /* Pods-iOS Keyboard-iOS KeyboardUITests.release.xcconfig */,
+				E4E540523A974F3D72542935 /* Pods-iOS KeyboardTests.debug.xcconfig */,
+				23D133146AF48B069ACE8164 /* Pods-iOS KeyboardTests.release.xcconfig */,
+				5A512F7572BCCB8D7B074D0B /* Pods-Dunbar Common.debug.xcconfig */,
+				87CFA5D93AE2700CDCBEAA31 /* Pods-Dunbar Common.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		121EB0D02AC517AA002E031F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0E72AC517AB002E031F /* Dunbar_Common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121EB0D42AC517AA002E031F /* Dunbar Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121EB0EC2AC517AB002E031F /* Build configuration list for PBXNativeTarget "Dunbar Common" */;
+			buildPhases = (
+				562F08316ACCEE6FAD6723B9 /* [CP] Check Pods Manifest.lock */,
+				121EB0D02AC517AA002E031F /* Headers */,
+				121EB0D12AC517AA002E031F /* Sources */,
+				121EB0D22AC517AA002E031F /* Frameworks */,
+				121EB0D32AC517AA002E031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dunbar Common";
+			productName = "Dunbar Common";
+			productReference = 121EB0D52AC517AA002E031F /* Dunbar_Common.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		121EB0DD2AC517AB002E031F /* Dunbar CommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121EB0F02AC517AB002E031F /* Build configuration list for PBXNativeTarget "Dunbar CommonTests" */;
+			buildPhases = (
+				121EB0DA2AC517AB002E031F /* Sources */,
+				121EB0DB2AC517AB002E031F /* Frameworks */,
+				121EB0DC2AC517AB002E031F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121EB0E12AC517AB002E031F /* PBXTargetDependency */,
+				121EB0E32AC517AB002E031F /* PBXTargetDependency */,
+			);
+			name = "Dunbar CommonTests";
+			productName = "Dunbar CommonTests";
+			productReference = 121EB0DE2AC517AB002E031F /* Dunbar CommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		124BC4B52A82EFC700304CF8 /* iOS Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124BC4E02A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS Keyboard" */;
+			buildPhases = (
+				2D686843C7769E446133A45A /* [CP] Check Pods Manifest.lock */,
+				124BC4B22A82EFC700304CF8 /* Sources */,
+				124BC4B32A82EFC700304CF8 /* Frameworks */,
+				124BC4B42A82EFC700304CF8 /* Resources */,
+				124BC4F82A82EFEB00304CF8 /* Embed Foundation Extensions */,
+				F3E3DD2270D81100DC03AC63 /* [CP] Embed Pods Frameworks */,
+				121EB0EF2AC517AB002E031F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124BC4F32A82EFEB00304CF8 /* PBXTargetDependency */,
+				121EB0E92AC517AB002E031F /* PBXTargetDependency */,
+			);
+			name = "iOS Keyboard";
+			productName = "iOS Keyboard";
+			productReference = 124BC4B62A82EFC700304CF8 /* iOS Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		124BC4CB2A82EFC900304CF8 /* iOS KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124BC4E32A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS KeyboardTests" */;
+			buildPhases = (
+				E581C09AC204F9619BF8AFD3 /* [CP] Check Pods Manifest.lock */,
+				124BC4C82A82EFC900304CF8 /* Sources */,
+				124BC4C92A82EFC900304CF8 /* Frameworks */,
+				124BC4CA2A82EFC900304CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124BC4CE2A82EFC900304CF8 /* PBXTargetDependency */,
+			);
+			name = "iOS KeyboardTests";
+			productName = "iOS KeyboardTests";
+			productReference = 124BC4CC2A82EFC900304CF8 /* iOS KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		124BC4D52A82EFC900304CF8 /* iOS KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124BC4E62A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS KeyboardUITests" */;
+			buildPhases = (
+				F2D28D0793BA05472EC7A3CF /* [CP] Check Pods Manifest.lock */,
+				124BC4D22A82EFC900304CF8 /* Sources */,
+				124BC4D32A82EFC900304CF8 /* Frameworks */,
+				124BC4D42A82EFC900304CF8 /* Resources */,
+				2883AC9E78D5D56E9E8DF157 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124BC4D82A82EFC900304CF8 /* PBXTargetDependency */,
+			);
+			name = "iOS KeyboardUITests";
+			productName = "iOS KeyboardUITests";
+			productReference = 124BC4D62A82EFC900304CF8 /* iOS KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		124BC4EC2A82EFEB00304CF8 /* Dunbar Keyboard Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124BC4F52A82EFEB00304CF8 /* Build configuration list for PBXNativeTarget "Dunbar Keyboard Extension" */;
+			buildPhases = (
+				50AF202C6CF89D948187C841 /* [CP] Check Pods Manifest.lock */,
+				124BC4E92A82EFEB00304CF8 /* Sources */,
+				124BC4EA2A82EFEB00304CF8 /* Frameworks */,
+				124BC4EB2A82EFEB00304CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121EB0F72AC5190E002E031F /* PBXTargetDependency */,
+			);
+			name = "Dunbar Keyboard Extension";
+			productName = "Dunbar Keyboard Extension";
+			productReference = 124BC4ED2A82EFEB00304CF8 /* Dunbar Keyboard Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124BC4AE2A82EFC700304CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					121EB0D42AC517AA002E031F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					121EB0DD2AC517AB002E031F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 124BC4B52A82EFC700304CF8;
+					};
+					124BC4B52A82EFC700304CF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					124BC4CB2A82EFC900304CF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 124BC4B52A82EFC700304CF8;
+					};
+					124BC4D52A82EFC900304CF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 124BC4B52A82EFC700304CF8;
+					};
+					124BC4EC2A82EFEB00304CF8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 124BC4B12A82EFC700304CF8 /* Build configuration list for PBXProject "iOS Keyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 124BC4AD2A82EFC700304CF8;
+			productRefGroup = 124BC4B72A82EFC700304CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				124BC4B52A82EFC700304CF8 /* iOS Keyboard */,
+				124BC4CB2A82EFC900304CF8 /* iOS KeyboardTests */,
+				124BC4D52A82EFC900304CF8 /* iOS KeyboardUITests */,
+				124BC4EC2A82EFEB00304CF8 /* Dunbar Keyboard Extension */,
+				121EB0D42AC517AA002E031F /* Dunbar Common */,
+				121EB0DD2AC517AB002E031F /* Dunbar CommonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121EB0D32AC517AA002E031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0FC2AC521DF002E031F /* CommonAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121EB0DC2AC517AB002E031F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4B42A82EFC700304CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FB133F2A82F87D00E90497 /* Main.storyboard in Resources */,
+				121EB1002AC65CE5002E031F /* RobotoFlex.ttf in Resources */,
+				1207DC3C2A85A31A0064FAC9 /* credentials.plist in Resources */,
+				124BC4C62A82EFC800304CF8 /* LaunchScreen.storyboard in Resources */,
+				124BC4C32A82EFC800304CF8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4CA2A82EFC900304CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4D42A82EFC900304CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4EB2A82EFEB00304CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB1022AC65CE8002E031F /* RobotoFlex.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2883AC9E78D5D56E9E8DF157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard-iOS KeyboardUITests/Pods-iOS Keyboard-iOS KeyboardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard-iOS KeyboardUITests/Pods-iOS Keyboard-iOS KeyboardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard-iOS KeyboardUITests/Pods-iOS Keyboard-iOS KeyboardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D686843C7769E446133A45A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Keyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50AF202C6CF89D948187C841 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dunbar Keyboard Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		562F08316ACCEE6FAD6723B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dunbar Common-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E581C09AC204F9619BF8AFD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS KeyboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D28D0793BA05472EC7A3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Keyboard-iOS KeyboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E3DD2270D81100DC03AC63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard/Pods-iOS Keyboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard/Pods-iOS Keyboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Keyboard/Pods-iOS Keyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121EB0D12AC517AA002E031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0FA2AC51FE2002E031F /* DunbarAPI.swift in Sources */,
+				125C1ECB2AC65FE200D3A5AE /* AssetProvider.swift in Sources */,
+				121EB0D92AC517AA002E031F /* Dunbar_Common.docc in Sources */,
+				121EB0F92AC51FDF002E031F /* UserDefaultsWrapper.swift in Sources */,
+				121EB0F32AC51803002E031F /* KeychainWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		121EB0DA2AC517AB002E031F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0E62AC517AB002E031F /* Dunbar_CommonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4B22A82EFC700304CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CFBE142AAA3ED2006E1726 /* Event.swift in Sources */,
+				124BC4BE2A82EFC700304CF8 /* ViewController.swift in Sources */,
+				124BC4BA2A82EFC700304CF8 /* AppDelegate.swift in Sources */,
+				1207DC3A2A85A0E20064FAC9 /* GoogleSignInProvider.swift in Sources */,
+				124BC4BC2A82EFC700304CF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4C82A82EFC900304CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124BC4D12A82EFC900304CF8 /* iOS_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4D22A82EFC900304CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124BC4DB2A82EFC900304CF8 /* iOS_KeyboardUITests.swift in Sources */,
+				124BC4DD2A82EFC900304CF8 /* iOS_KeyboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124BC4E92A82EFEB00304CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121EB0CC2AAF67D4002E031F /* EventListCell.swift in Sources */,
+				124BC4F02A82EFEB00304CF8 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121EB0E12AC517AB002E031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121EB0D42AC517AA002E031F /* Dunbar Common */;
+			targetProxy = 121EB0E02AC517AB002E031F /* PBXContainerItemProxy */;
+		};
+		121EB0E32AC517AB002E031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124BC4B52A82EFC700304CF8 /* iOS Keyboard */;
+			targetProxy = 121EB0E22AC517AB002E031F /* PBXContainerItemProxy */;
+		};
+		121EB0E92AC517AB002E031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121EB0D42AC517AA002E031F /* Dunbar Common */;
+			targetProxy = 121EB0E82AC517AB002E031F /* PBXContainerItemProxy */;
+		};
+		121EB0F72AC5190E002E031F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 121EB0D42AC517AA002E031F /* Dunbar Common */;
+			targetProxy = 121EB0F62AC5190E002E031F /* PBXContainerItemProxy */;
+		};
+		124BC4CE2A82EFC900304CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124BC4B52A82EFC700304CF8 /* iOS Keyboard */;
+			targetProxy = 124BC4CD2A82EFC900304CF8 /* PBXContainerItemProxy */;
+		};
+		124BC4D82A82EFC900304CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124BC4B52A82EFC700304CF8 /* iOS Keyboard */;
+			targetProxy = 124BC4D72A82EFC900304CF8 /* PBXContainerItemProxy */;
+		};
+		124BC4F32A82EFEB00304CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124BC4EC2A82EFEB00304CF8 /* Dunbar Keyboard Extension */;
+			targetProxy = 124BC4F22A82EFEB00304CF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		124BC4C42A82EFC800304CF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124BC4C52A82EFC800304CF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12FB133D2A82F87D00E90497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FB133E2A82F87D00E90497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121EB0ED2AC517AB002E031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A512F7572BCCB8D7B074D0B /* Pods-Dunbar Common.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.Dunbar-Common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		121EB0EE2AC517AB002E031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CFA5D93AE2700CDCBEAA31 /* Pods-Dunbar Common.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.Dunbar-Common";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		121EB0F12AC517AB002E031F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.Dunbar-CommonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Keyboard";
+			};
+			name = Debug;
+		};
+		121EB0F22AC517AB002E031F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.Dunbar-CommonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Keyboard";
+			};
+			name = Release;
+		};
+		124BC4DE2A82EFC900304CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		124BC4DF2A82EFC900304CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124BC4E12A82EFC900304CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26466EB2C4E9440AB2E1702B /* Pods-iOS Keyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BetaIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Keyboard/iOS Keyboard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Keyboard/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		124BC4E22A82EFC900304CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF9094F8AEE9640E86D6B0D /* Pods-iOS Keyboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BetaIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iOS Keyboard/iOS Keyboard.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Keyboard/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		124BC4E42A82EFC900304CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E540523A974F3D72542935 /* Pods-iOS KeyboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Keyboard";
+			};
+			name = Debug;
+		};
+		124BC4E52A82EFC900304CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D133146AF48B069ACE8164 /* Pods-iOS KeyboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Keyboard";
+			};
+			name = Release;
+		};
+		124BC4E72A82EFC900304CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBEAC3434B456DAECF364EE /* Pods-iOS Keyboard-iOS KeyboardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Keyboard";
+			};
+			name = Debug;
+		};
+		124BC4E82A82EFC900304CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0481D28533C7687E64C0368 /* Pods-iOS Keyboard-iOS KeyboardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Keyboard";
+			};
+			name = Release;
+		};
+		124BC4F62A82EFEB00304CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588F97A9C8F3D9A7CF096241 /* Pods-Dunbar Keyboard Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dunbar Keyboard Extension/Dunbar Keyboard Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dunbar Keyboard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dunbar Keyboard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-Keyboard.Dunbar-Keyboard-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		124BC4F72A82EFEB00304CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD4DF285FF23C019ECA3084 /* Pods-Dunbar Keyboard Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Dunbar Keyboard Extension/Dunbar Keyboard Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z38MN2MTJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dunbar Keyboard Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Dunbar Keyboard Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.withdunbar.iOS-Keyboard.Dunbar-Keyboard-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121EB0EC2AC517AB002E031F /* Build configuration list for PBXNativeTarget "Dunbar Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121EB0ED2AC517AB002E031F /* Debug */,
+				121EB0EE2AC517AB002E031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121EB0F02AC517AB002E031F /* Build configuration list for PBXNativeTarget "Dunbar CommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121EB0F12AC517AB002E031F /* Debug */,
+				121EB0F22AC517AB002E031F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124BC4B12A82EFC700304CF8 /* Build configuration list for PBXProject "iOS Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124BC4DE2A82EFC900304CF8 /* Debug */,
+				124BC4DF2A82EFC900304CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124BC4E02A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124BC4E12A82EFC900304CF8 /* Debug */,
+				124BC4E22A82EFC900304CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124BC4E32A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124BC4E42A82EFC900304CF8 /* Debug */,
+				124BC4E52A82EFC900304CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124BC4E62A82EFC900304CF8 /* Build configuration list for PBXNativeTarget "iOS KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124BC4E72A82EFC900304CF8 /* Debug */,
+				124BC4E82A82EFC900304CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124BC4F52A82EFEB00304CF8 /* Build configuration list for PBXNativeTarget "Dunbar Keyboard Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124BC4F62A82EFEB00304CF8 /* Debug */,
+				124BC4F72A82EFEB00304CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124BC4AE2A82EFC700304CF8 /* Project object */;
+}

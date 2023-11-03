@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="127" viewBox="0 0 107 127">
+  <defs>
+    <clipPath id="clip-dunbar-outline">
+      <rect width="107" height="127"/>
+    </clipPath>
+  </defs>
+  <g id="dunbar-outline" clip-path="url(#clip-dunbar-outline)">
+    <path id="DunbarLogoMock" d="M0,9.783A9.769,9.769,0,0,1,9.755,0H44.184a63.3,63.3,0,0,1,0,126.6H9.755A9.769,9.769,0,0,1,0,116.817Z" transform="translate(-0.305 0.4)" fill="#fff"/>
+    <path id="DunbarLogoMock-2" data-name="DunbarLogoMock" d="M0,6.294A6.294,6.294,0,0,1,6.294,0H28.507a40.725,40.725,0,0,1,0,81.449H6.294A6.294,6.294,0,0,1,0,75.155Z" transform="translate(18.884 22.775)" fill="#7ce4bb"/>
+  </g>
+</svg>
